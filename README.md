@@ -64,8 +64,9 @@ A short tour explains every tab, and you can replay it under Settings → About.
 ## Install
 
 1. Download `HunterAIO-<version>.zip` from the [latest release](https://github.com/MkUltra1984/hunter-aio/releases/latest). The smaller zips there are for the in-app updater; you don't need them.
-2. Unzip it anywhere and start `HunterAIO.exe`.
-3. Press **Install now**, then **Play Monster Hunter Wilds**.
+2. **Extract the zip first**: right-click it → *Extract All*. Do not start the exe from inside the zip, and do not move the exe out on its own: it needs the files beside it, and without them nothing opens.
+3. Run `HunterAIO.exe` in the extracted folder.
+4. Press **Install now**, then **Play Monster Hunter Wilds**.
 
 After the first start the folder shows only `HunterAIO.exe`. The other files are still there, just hidden, so the folder stays tidy. Keep the folder together when you move it.
 
@@ -130,8 +131,9 @@ Die Editoren ändern Waffen und Talismane, die du schon besitzt. Sie erzeugen ke
 ### Installation
 
 1. `HunterAIO-<Version>.zip` aus dem [neuesten Release](https://github.com/MkUltra1984/hunter-aio/releases/latest) laden. Die kleineren Zips dort sind für die Update-Funktion; die brauchst du nicht.
-2. Irgendwo entpacken und `HunterAIO.exe` starten.
-3. **Install now** drücken, danach **Play Monster Hunter Wilds**.
+2. **Zuerst das Zip entpacken**: Rechtsklick → *Alle extrahieren*. Die exe nicht direkt aus dem Zip starten und nicht einzeln herausziehen: Sie braucht die Dateien daneben, sonst öffnet sich nichts.
+3. `HunterAIO.exe` im entpackten Ordner starten.
+4. **Install now** drücken, danach **Play Monster Hunter Wilds**.
 
 Nach dem ersten Start zeigt der Ordner nur noch `HunterAIO.exe`. Die übrigen Dateien sind weiterhin da, nur ausgeblendet. Verschiebe den Ordner immer als Ganzes.
 
