@@ -1,0 +1,47 @@
+Hunter AIO: third-party software
+================================
+
+Hunter AIO (the app, HunterAIO.exe and its wwwroot folder) is written by MkUltra1984.
+It is not affiliated with Capcom. Monster Hunter Wilds is a Capcom game.
+
+The download contains the following software by other people.
+
+
+REFramework
+-----------
+Author: praydog. Source: https://github.com/praydog/REFramework
+Licence: MIT, see REFramework-LICENSE.txt
+Shipped unmodified (payload\reframework\dinput8.dll).
+
+
+HunterPie (modified)
+--------------------
+Author: Haato and the HunterPie contributors. Source: https://github.com/HunterPie/HunterPie
+Licence: Apache License 2.0, see HunterPie-LICENSE.txt
+Shipped in payload\hunterpie. This is HunterPie v2.14.0.471 with these changes by MkUltra1984:
+
+- Added HunterPie/Features/HunterAio/AioExportService.cs: a read-only service that writes HunterPie's live hunt data
+  (monsters, parts, ailments, party damage, quest, player vitals) to %LOCALAPPDATA%\HunterAIO\hunt.json twice a
+  second, so the Hunter AIO app can show it.
+- Registered that service in HunterPie/Features/ContextInitializers.cs and
+  HunterPie/Features/Statistics/StatisticsModule.cs.
+- The shipped config.json starts HunterPie quietly (no main window, closes with the game), turns its overlay widgets
+  off by default and turns HunterPie's own auto-update off, so the modified build stays in place.
+
+Everything else is HunterPie as released. This build is not an official HunterPie release; please do not report
+problems with it to the HunterPie project.
+
+The Hunt tab of the Hunter AIO app follows HunterPie's widget design and uses HunterPie's weapon, element, stopwatch
+and skull icons, converted to SVG from HunterPie.UI/Resources (Apache License 2.0).
+
+
+.NET runtime
+------------
+The files beside HunterAIO.exe include the .NET 9 runtime and Windows Desktop runtime by Microsoft and the .NET
+Foundation (MIT licence, https://github.com/dotnet/runtime, https://github.com/dotnet/wpf).
+
+
+Microsoft Edge WebView2 SDK
+---------------------------
+Microsoft.Web.WebView2.*.dll and WebView2Loader.dll, copyright (c) Microsoft Corporation, distributed under the
+WebView2 SDK licence (BSD-style): https://www.nuget.org/packages/Microsoft.Web.WebView2/1.0.4314.35/License
