@@ -67,6 +67,8 @@ A short tour explains every tab, and you can replay it under Settings → About.
 2. Unzip it anywhere and start `HunterAIO.exe`.
 3. Press **Install now**, then **Play Monster Hunter Wilds**.
 
+After the first start the folder shows only `HunterAIO.exe`. The other files are still there, just hidden, so the folder stays tidy. Keep the folder together when you move it.
+
 HunterPie needs the [.NET Desktop Runtime 10.0 (x64)](https://dotnet.microsoft.com/download/dotnet/10.0).
 
 ### Windows warning on first start
@@ -130,6 +132,8 @@ Die Editoren ändern Waffen und Talismane, die du schon besitzt. Sie erzeugen ke
 1. `HunterAIO-<Version>.zip` aus dem [neuesten Release](https://github.com/MkUltra1984/hunter-aio/releases/latest) laden. Die kleineren Zips dort sind für die Update-Funktion; die brauchst du nicht.
 2. Irgendwo entpacken und `HunterAIO.exe` starten.
 3. **Install now** drücken, danach **Play Monster Hunter Wilds**.
+
+Nach dem ersten Start zeigt der Ordner nur noch `HunterAIO.exe`. Die übrigen Dateien sind weiterhin da, nur ausgeblendet. Verschiebe den Ordner immer als Ganzes.
 
 HunterPie braucht die [.NET Desktop Runtime 10.0 (x64)](https://dotnet.microsoft.com/download/dotnet/10.0).
 
