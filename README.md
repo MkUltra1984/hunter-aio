@@ -10,17 +10,35 @@ A small Windows app for **Monster Hunter Wilds** (Steam). One click sets up the 
 
 ### Follow the hunt live
 
-Monster health, parts and status build-up on the left; everyone's damage, share and DPS on the right, with charts of the fight. It runs in its own window, so it fits a second screen and nothing covers the game.
+Monster health, parts and status build-up on the left; everyone's damage, share and DPS on the right, with charts of the fight. It runs in its own window, so it fits a second screen and nothing covers the game. The layout follows the window: two panels side by side on a wide window, one column on a narrow one.
+
+### Know what works on the monster
+
+Under the monster: every element and ailment with a bar from 1 (weak) to 3 (very strong), sorted from best to worst, and whether stun, exhaust, flash pods and sonic bombs work. A gold star line names the body parts where an element hits hardest. Left parts stand in the left column, right parts in the right.
 
 ### Race your personal best
 
-During a quest the app shows your best run of that quest next to the current one: best time, the damage you had at this exact minute back then, DPS and max DPS, and whether you are ahead or behind. Bests are kept per quest, because the same monster has different health in different quests.
+During a quest the app shows your best run of that quest next to the current one: best time, the damage you had at this exact minute back then, DPS and max DPS. Each row shows how far you are ahead (green) or behind (red). Bests are kept per quest, because the same monster has different health in different quests.
 
 ### Look back at your hunts
 
 Your last 10 successful hunts with time, damage, share and whether you went solo, with support hunters or online. Click one to open it: every party member's numbers and a chart of who dealt how much damage when.
 
 ![An opened hunt in the history](img/history.png)
+
+### Share a hunt
+
+**Save as image** on an opened hunt makes a picture of it: clear time, the key numbers, the party's damage and both charts. It is saved to your Pictures folder and copied, ready to paste into a chat.
+
+![A hunt saved as a picture](img/share.png)
+
+### A guide with every monster
+
+The Guide tab explains what every bar, ring and chip means and how each mod works. Under **Monsters** you look up the weaknesses and best spots of all 34 large monsters without being in a hunt.
+
+| How it works | Monsters |
+|---|---|
+| ![Guide: how it works](img/guide.png) | ![Guide: monsters](img/monsters.png) |
 
 ### One button to play
 
@@ -54,9 +72,10 @@ A short tour explains every tab, and you can replay it under Settings → About.
 ## Features
 
 - **One-click setup and removal** of [REFramework](https://github.com/praydog/REFramework) and a build of [HunterPie](https://github.com/HunterPie/HunterPie).
-- **Hunt tab**: target monster with health, stamina, capture line, weaknesses, parts and ailments; other monsters; damage meter with DPS, average and charts.
+- **Hunt tab**: target monster with health, stamina, capture line, parts and status build-up; element and ailment weaknesses in three steps and the best spots to hit; other monsters; damage meter with DPS, average and charts.
 - **Personal bests per quest** with a live comparison during the hunt.
-- **Hunt history**: the last 10 successful hunts, each with full party stats and a damage-over-the-fight chart.
+- **Hunt history**: the last 10 successful hunts, each with full party stats and a damage-over-the-fight chart, and **Save as image** to share one.
+- **Guide tab**: every feature explained, and the weaknesses of all 34 large monsters with search.
 - **Charm, Item and Artian editors, Artian parts, Shop Stock**: optional, off by default.
 - **Save backups** with restore, and a backup before anything is installed.
 - **In-app updates** and a desktop shortcut.
@@ -93,6 +112,7 @@ The exe is not signed, so Windows SmartScreen may show "Windows protected your P
 ## Credits and licences
 
 - **REFramework** by praydog, MIT licence, included unmodified.
+- **Monster weakness values** (elements, ailments, body parts) are game facts collected from the open data set at [wilds.mhdb.io](https://wilds.mhdb.io). A monster from a newer title update can be missing.
 - **HunterPie** by Haato and contributors, Apache License 2.0. The included build is **modified**: one extra read-only service writes the hunt data to a local file for this app. It is not an official HunterPie release. The Hunt tab follows HunterPie's widget design and uses its icons.
 - The editors and Shop Stock are written for Hunter AIO. Thanks to **lingsamuel**, whose Charm, Item and Artian editors showed how the game stores these things.
 - Details and licence texts: [licenses/](licenses/).
@@ -109,9 +129,12 @@ Eine kleine Windows-App für **Monster Hunter Wilds** (Steam). Ein Klick richtet
 
 ### Was die App zeigt
 
-- **Die Jagd live**: links Lebenspunkte, Körperteile und Statusaufbau des Monsters, rechts Schaden, Anteil und DPS aller Jäger mit Diagrammen. Eigenes Fenster, ideal für einen zweiten Bildschirm; nichts verdeckt das Spiel.
+- **Die Jagd live**: links Lebenspunkte, Körperteile und Statusaufbau des Monsters, rechts Schaden, Anteil und DPS aller Jäger mit Diagrammen. Eigenes Fenster, ideal für einen zweiten Bildschirm; nichts verdeckt das Spiel. Die Aufteilung passt sich der Fenstergröße an.
+- **Was beim Monster wirkt**: jedes Element und jeder Statuseffekt mit einem Balken von 1 (schwach) bis 3 (sehr stark), vom besten zum schlechtesten sortiert, dazu ob Betäubung, Erschöpfung, Blitzkapseln und Schallbomben wirken. Eine Zeile mit goldenem Stern nennt die Körperteile, an denen ein Element am stärksten trifft.
 - **Gegen die eigene Bestzeit**: Während einer Quest siehst du deinen besten Lauf dieser Quest neben dem aktuellen: Bestzeit, dein Schaden zur selben Minute, DPS und Max-DPS, dazu ob du vorne oder hinten liegst. Bestzeiten gelten pro Quest, weil dasselbe Monster je nach Quest unterschiedlich viele Lebenspunkte hat.
 - **Jagdverlauf**: die letzten 10 erfolgreichen Jagden mit Zeit, Schaden, Anteil und ob solo, mit Hilfsjägern oder online. Ein Klick öffnet die Jagd mit den Werten aller Jäger und einem Diagramm, wer wann wie viel Schaden gemacht hat.
+- **Jagd teilen**: „Save as image“ macht aus einer geöffneten Jagd ein Bild mit Zeit, den wichtigsten Werten, dem Schaden der Gruppe und beiden Diagrammen. Es wird im Bilderordner gespeichert und kopiert, fertig zum Einfügen in einen Chat.
+- **Guide mit allen Monstern**: Der Guide-Tab erklärt jeden Balken, Ring und jede Markierung und wie die Mods funktionieren. Unter „Monsters“ schlägst du die Schwächen und besten Trefferzonen aller 34 großen Monster nach, ohne auf der Jagd zu sein.
 - **Ein Knopf zum Spielen**: „Install now“ findet das Spiel und richtet alles ein, danach startet „Play“ HunterPie und das Spiel gemeinsam.
 - **Aktualisiert sich selbst**: Die App schaut beim Start hier nach; „Update now“ lädt nur, was sich geändert hat.
 - **Sicherung der Spielstände** mit Wiederherstellung, Desktop-Verknüpfung, kurze Tour beim ersten Start.
@@ -152,6 +175,7 @@ HunterPie braucht die [.NET Desktop Runtime 10.0 (x64)](https://dotnet.microsoft
 ### Credits und Lizenzen
 
 - **REFramework** von praydog, MIT-Lizenz, unverändert enthalten.
+- **Schwächen der Monster** (Elemente, Statuseffekte, Körperteile) sind Spielfakten aus dem offenen Datensatz von [wilds.mhdb.io](https://wilds.mhdb.io). Ein Monster aus einem neueren Title Update kann fehlen.
 - **HunterPie** von Haato und Mitwirkenden, Apache License 2.0. Der enthaltene Build ist **angepasst**: Ein zusätzlicher, nur lesender Dienst schreibt die Jagddaten für diese App in eine lokale Datei. Es ist kein offizielles HunterPie-Release; bitte melde Probleme damit nicht beim HunterPie-Projekt.
 - Die Editoren und Shop Stock sind für Hunter AIO geschrieben. Dank an **lingsamuel**, dessen Charm-, Item- und Artian-Editoren gezeigt haben, wie das Spiel diese Dinge speichert.
 - Details und Lizenztexte: [licenses/](licenses/).
