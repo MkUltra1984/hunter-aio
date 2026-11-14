@@ -105,7 +105,7 @@ The exe is not signed, so Windows SmartScreen may show "Windows protected your P
 
 **How do I remove it?** Settings → Advanced → *Uninstall everything*, then delete the folder.
 
-**Which language?** The interface is English only for now.
+**Which language?** English and German; switch under Settings. Names of items, skills, charms and jewels always come from your game in the game's language. Quest names stay as the hunt data sends them.
 
 **Something is broken.** Open an [issue](https://github.com/MkUltra1984/hunter-aio/issues) and say what you did and what happened. Please don't report problems with the included HunterPie build to the HunterPie project.
 
@@ -170,7 +170,7 @@ HunterPie braucht die [.NET Desktop Runtime 10.0 (x64)](https://dotnet.microsoft
 - **Können die Editoren meinen Spielstand beschädigen?** Sie schreiben nur Werte, die die Tabellen des Spiels erlauben, und die App behält die letzten 10 Sicherungen. Die Editoren sind neu: Probiere sie zuerst mit einem gesicherten Spielstand aus und melde, was dir merkwürdig vorkommt.
 - **Wo liegen meine Daten?** Alles bleibt auf deinem PC unter `%LOCALAPPDATA%\HunterAIO`. Die App kontaktiert nur GitHub, um nach Updates zu schauen.
 - **Wie entferne ich sie?** Settings → Advanced → *Uninstall everything*, danach den Ordner löschen.
-- **Sprache?** Die Oberfläche ist zurzeit nur auf Englisch.
+- **Sprache?** Deutsch und Englisch; umschalten unter Einstellungen. Die Namen von Items, Fähigkeiten, Talismanen und Juwelen kommen immer aus deinem Spiel, in der Sprache des Spiels. Questnamen bleiben so, wie die Jagddaten sie liefern.
 
 ### Credits und Lizenzen
 
