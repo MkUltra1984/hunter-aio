@@ -54,7 +54,7 @@ They are controlled from the app while the game runs; there is no menu in the ga
 | Charm Editor | Item Editor |
 |---|---|
 | ![Charm Editor](img/charms.png) | ![Item Editor](img/items.png) |
-| Set the skills and slots of your rolled charms. The dropdowns only offer combinations the game itself can roll. Presets, copy from another charm, re-roll, share codes and undo. | A quick list of the items you use, with **Top up** per item or for the whole list, in box or pouch. Search any other item. Zenny, points and vouchers in capped steps. |
+| Set the skills and slots of your rolled charms. The dropdowns only offer combinations the game itself can roll. Each skill shows its highest level; the list can be narrowed to weapon or armor skills. Presets, copy from another charm, re-roll, share codes and undo. | A quick list of the items you use: add 1, 10, 100 or any amount, or **Top up** per item or for the whole list, in box or pouch. Search any other item. Zenny, points and vouchers can be added in capped steps and taken away again. |
 
 | Artian Editor | Artian Parts | Shop Stock |
 |---|---|---|
@@ -72,7 +72,7 @@ A short tour explains every tab, and you can replay it under Settings → About.
 ## Features
 
 - **One-click setup and removal** of [REFramework](https://github.com/praydog/REFramework) and a build of [HunterPie](https://github.com/HunterPie/HunterPie).
-- **Hunt tab**: target monster with health, stamina, capture line, parts and status build-up; element and ailment weaknesses in three steps and the best spots to hit; other monsters; damage meter with DPS, average and charts.
+- **Hunt tab**: target monster with health, stamina, capture line, parts and status build-up; element and ailment weaknesses with one to three stars (only what the monster is weak to) and the best spots to hit; other monsters; damage meter with DPS, average and charts.
 - **Personal bests per quest** with a live comparison during the hunt.
 - **Hunt history**: the last 10 successful hunts, each with full party stats and a damage-over-the-fight chart, and **Save as image** to share one.
 - **Guide tab**: every feature explained, and the weaknesses of all 34 large monsters with search.
@@ -143,8 +143,8 @@ Eine kleine Windows-App für **Monster Hunter Wilds** (Steam). Ein Klick richtet
 
 Sie werden aus der App bedient, während das Spiel läuft; im Spiel gibt es kein Menü. Sie verändern deinen Spielstand: Jeder fragt vor dem Einschalten nach, und solange einer an ist, sichert die App deinen Spielstand vor jedem Spielstart.
 
-- **Charm Editor**: Fähigkeiten und Slots deiner gewürfelten Talismane. Zur Auswahl steht nur, was das Spiel selbst würfeln kann. Vorlagen, Kopieren, Neu würfeln, Codes zum Teilen, Rückgängig.
-- **Item Editor**: eine Schnellliste deiner Items mit „Top up“ pro Item oder für die ganze Liste, in Kiste oder Beutel. Jedes andere Item per Suche. Zenny, Punkte und Gutscheine in begrenzten Schritten.
+- **Charm Editor**: Fähigkeiten und Slots deiner gewürfelten Talismane. Zur Auswahl steht nur, was das Spiel selbst würfeln kann. Jede Fähigkeit zeigt ihre höchste Stufe; die Liste lässt sich auf Waffen- oder Rüstungsfähigkeiten eingrenzen. Vorlagen, Kopieren, Neu würfeln, Codes zum Teilen, Rückgängig.
+- **Item Editor**: eine Schnellliste deiner Items: 1, 10, 100 oder eine beliebige Anzahl hinzufügen, oder „Top up“ pro Item oder für die ganze Liste, in Kiste oder Beutel. Jedes andere Item per Suche. Zenny, Punkte und Gutscheine lassen sich in begrenzten Schritten hinzufügen und auch wieder abziehen.
 - **Artian Editor**: Element, Herstellungs- und Verstärkungsboni deiner Artian-Waffen; bei besonderen Waffen auch Fokus und Fähigkeiten. Listen und Grenzen stammen aus dem Spiel.
 - **Artian Parts**: fügt Artian-Teile hinzu (Art, Seltenheit, Element, Bonus).
 - **Shop Stock**: mehr Items im Item-Laden, ganze Kategorien oder einzelne Items. Nur im Arbeitsspeicher; ausgeschaltet ist der Laden wieder der ursprüngliche.
