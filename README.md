@@ -72,7 +72,7 @@ A short tour explains every tab, and you can replay it under Settings → About.
 ## Features
 
 - **One-click setup and removal** of [REFramework](https://github.com/praydog/REFramework) and a build of [HunterPie](https://github.com/HunterPie/HunterPie).
-- **Hunt tab**: target monster with health, stamina, capture line, parts and status build-up; element and ailment weaknesses with one to three stars (only what the monster is weak to) and the best spots to hit; other monsters; damage meter with DPS, average and charts.
+- **Hunt tab**: target monster with health, stamina, capture line, parts and status build-up; element and ailment weaknesses with two or three stars (only what works well) and the best spots to hit; other monsters; damage meter with DPS, average and charts.
 - **Personal bests per quest** with a live comparison during the hunt.
 - **Hunt history**: the last 10 successful hunts, each with full party stats and a damage-over-the-fight chart, and **Save as image** to share one.
 - **Guide tab**: every feature explained, and the weaknesses of all 34 large monsters with search.
