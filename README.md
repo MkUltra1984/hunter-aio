@@ -14,7 +14,7 @@ Monster health, parts and status build-up on the left; everyone's damage, share 
 
 ### Know what works on the monster
 
-Under the monster: every element and ailment with a bar from 1 (weak) to 3 (very strong), sorted from best to worst, and whether stun, exhaust, flash pods and sonic bombs work. A gold star line names the body parts where an element hits hardest. Left parts stand in the left column, right parts in the right.
+Under the monster: the elements and ailments that work well, with two or three stars and sorted from best to worst, and whether stun, exhaust, flash pods and sonic bombs work. A gold star line names the body parts where an element hits hardest. Left parts stand in the left column, right parts in the right. In someone else's quest the part bars may get no live values; the parts then show their best element with stars instead.
 
 ### Race your personal best
 
@@ -54,7 +54,7 @@ They are controlled from the app while the game runs; there is no menu in the ga
 | Charm Editor | Item Editor |
 |---|---|
 | ![Charm Editor](img/charms.png) | ![Item Editor](img/items.png) |
-| Set the skills and slots of your rolled charms. The dropdowns only offer combinations the game itself can roll. Each skill shows its highest level; the list can be narrowed to weapon or armor skills. Presets, copy from another charm, re-roll, share codes and undo. | A quick list of the items you use: add 1, 10, 100 or any amount, or **Top up** per item or for the whole list, in box or pouch. Search any other item. Zenny, points and vouchers can be added in capped steps and taken away again. |
+| Set the skills and slots of your rolled charms. The dropdowns only offer combinations the game itself can roll. Each skill shows its highest level; the list can be narrowed to weapon or armor skills. Presets, copy from another charm, re-roll, share codes and undo. | A quick list of the items you use: add 1, 10, 100 or any amount, or **Top up** per item or for the whole list, in box or pouch. Search any other item. A **Jewels** page adds any jewel of the game to your jewel box, found by name, skill or slot level. Zenny, points and vouchers can be added in capped steps and taken away again. |
 
 | Artian Editor | Artian Parts | Shop Stock |
 |---|---|---|
@@ -130,7 +130,7 @@ Eine kleine Windows-App für **Monster Hunter Wilds** (Steam). Ein Klick richtet
 ### Was die App zeigt
 
 - **Die Jagd live**: links Lebenspunkte, Körperteile und Statusaufbau des Monsters, rechts Schaden, Anteil und DPS aller Jäger mit Diagrammen. Eigenes Fenster, ideal für einen zweiten Bildschirm; nichts verdeckt das Spiel. Die Aufteilung passt sich der Fenstergröße an.
-- **Was beim Monster wirkt**: jedes Element und jeder Statuseffekt mit einem Balken von 1 (schwach) bis 3 (sehr stark), vom besten zum schlechtesten sortiert, dazu ob Betäubung, Erschöpfung, Blitzkapseln und Schallbomben wirken. Eine Zeile mit goldenem Stern nennt die Körperteile, an denen ein Element am stärksten trifft.
+- **Was beim Monster wirkt**: die Elemente und Statuseffekte, die gut wirken, mit zwei oder drei Sternen, vom besten zum schlechtesten sortiert, dazu ob Betäubung, Erschöpfung, Blitzkapseln und Schallbomben wirken. Eine Zeile mit goldenem Stern nennt die Körperteile, an denen ein Element am stärksten trifft. In der Quest eines anderen kommen für die Körperteile unter Umständen keine Live-Werte an; dann zeigen sie stattdessen ihr bestes Element mit Sternen.
 - **Gegen die eigene Bestzeit**: Während einer Quest siehst du deinen besten Lauf dieser Quest neben dem aktuellen: Bestzeit, dein Schaden zur selben Minute, DPS und Max-DPS, dazu ob du vorne oder hinten liegst. Bestzeiten gelten pro Quest, weil dasselbe Monster je nach Quest unterschiedlich viele Lebenspunkte hat.
 - **Jagdverlauf**: die letzten 10 erfolgreichen Jagden mit Zeit, Schaden, Anteil und ob solo, mit Hilfsjägern oder online. Ein Klick öffnet die Jagd mit den Werten aller Jäger und einem Diagramm, wer wann wie viel Schaden gemacht hat.
 - **Jagd teilen**: „Save as image“ macht aus einer geöffneten Jagd ein Bild mit Zeit, den wichtigsten Werten, dem Schaden der Gruppe und beiden Diagrammen. Es wird im Bilderordner gespeichert und kopiert, fertig zum Einfügen in einen Chat.
@@ -144,7 +144,7 @@ Eine kleine Windows-App für **Monster Hunter Wilds** (Steam). Ein Klick richtet
 Sie werden aus der App bedient, während das Spiel läuft; im Spiel gibt es kein Menü. Sie verändern deinen Spielstand: Jeder fragt vor dem Einschalten nach, und solange einer an ist, sichert die App deinen Spielstand vor jedem Spielstart.
 
 - **Charm Editor**: Fähigkeiten und Slots deiner gewürfelten Talismane. Zur Auswahl steht nur, was das Spiel selbst würfeln kann. Jede Fähigkeit zeigt ihre höchste Stufe; die Liste lässt sich auf Waffen- oder Rüstungsfähigkeiten eingrenzen. Vorlagen, Kopieren, Neu würfeln, Codes zum Teilen, Rückgängig.
-- **Item Editor**: eine Schnellliste deiner Items: 1, 10, 100 oder eine beliebige Anzahl hinzufügen, oder „Top up“ pro Item oder für die ganze Liste, in Kiste oder Beutel. Jedes andere Item per Suche. Zenny, Punkte und Gutscheine lassen sich in begrenzten Schritten hinzufügen und auch wieder abziehen.
+- **Item Editor**: eine Schnellliste deiner Items: 1, 10, 100 oder eine beliebige Anzahl hinzufügen, oder „Top up“ pro Item oder für die ganze Liste, in Kiste oder Beutel. Jedes andere Item per Suche. Eine eigene Seite **Juwelen** legt jedes Juwel des Spiels in deine Juwelenkiste, gefunden über Name, Fähigkeit oder Slot-Stufe. Zenny, Punkte und Gutscheine lassen sich in begrenzten Schritten hinzufügen und auch wieder abziehen.
 - **Artian Editor**: Element, Herstellungs- und Verstärkungsboni deiner Artian-Waffen; bei besonderen Waffen auch Fokus und Fähigkeiten. Listen und Grenzen stammen aus dem Spiel.
 - **Artian Parts**: fügt Artian-Teile hinzu (Art, Seltenheit, Element, Bonus).
 - **Shop Stock**: mehr Items im Item-Laden, ganze Kategorien oder einzelne Items. Nur im Arbeitsspeicher; ausgeschaltet ist der Laden wieder der ursprüngliche.
